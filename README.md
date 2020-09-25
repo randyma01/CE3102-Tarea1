@@ -17,5 +17,3 @@ El proyecto consiste en el desarrollo de funciones transcendentales.
 ## Versión📌
 
 ## Autores ✒️
-
-a
