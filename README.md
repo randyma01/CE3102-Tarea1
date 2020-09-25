@@ -4,8 +4,6 @@ El código mostrado acontinuación formar parte de curso: CE3102 - Análisis Num
 
 El proyecto consiste en el desarrollo de funciones transcendentales.
 
-# FarmaTEC 💊 💉
-
 ## Pre-requisitos 📋
 
 ## Instalación 🔧
