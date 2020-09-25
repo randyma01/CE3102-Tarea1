@@ -18,4 +18,4 @@ El proyecto consiste en el desarrollo de funciones transcendentales.
 
 ## Autores ✒️
 
-- **Randy Martínez** - _Estudiante_ - [Git Personal](https://github.com/randyma01)
+a
