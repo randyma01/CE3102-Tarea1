@@ -17,7 +17,7 @@ function x = div_t(a)
     elseif (factorial(100) < a && a <= factorial(120))
         x = eps^20;
     elseif (factorial(120) < a && a <= factorial(140))
-        x = eps^23;
+        x = 0;
     end
 
     while (tol <= err && k <= 2500)
