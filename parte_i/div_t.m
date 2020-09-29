@@ -14,6 +14,10 @@ function x = div_t(a)
         x = eps^11;
     elseif (factorial(80) < a && a <= factorial(100))
         x = eps^15;
+    elseif (factorial(100) < a && a <= factorial(120))
+        x = eps^20;
+    elseif (factorial(120) < a && a <= factorial(140))
+        x = eps^23;
     end
 
     while (tol <= err && k <= 2500)

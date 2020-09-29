@@ -13,8 +13,7 @@ function sk = ln_t(a)
         ++n;
     end 
     cte = (2 * (a - 1)) * (div_t(a + 1));
-    sk = cte + sk;
-    %sk = 2 * sk
+    sk = cte * sk;
 end
 
 
