@@ -1,4 +1,4 @@
-function sk = sen_t(a)
+function sk = sin_t(a)
     tol = 10^-8;
     error = tol + 1;
     e = [];

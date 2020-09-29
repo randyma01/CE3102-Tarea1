@@ -12,9 +12,9 @@ function sk = ln_t(a)
         sk = sk1;
         ++n;
     end 
-    %cte = (2 * (a - 1)) * (div_t(a + 1));
-    %sk = cte + sk;
-    sk = 2 * sk
+    cte = (2 * (a - 1)) * (div_t(a + 1));
+    sk = cte + sk;
+    %sk = 2 * sk
 end
 
 
