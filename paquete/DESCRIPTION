@@ -1,0 +1,24 @@
+Name: funtrans
+Version: 1.0.0
+Date: 2020-10-18
+Authors: 
+    Fiorella Delgado <fiorelladelgado53@gmail.com>, 
+    Cristian Marin <cmarinmurillo@gmail.com>, 
+    Randy Martinez <ranydma01@gmail.com>, 
+    Karla Sanchez <karla.rivera24@gmail.com> 
+Maintainer: 
+    Fiorella Delgado <fiorelladelgado53@gmail.com>, 
+    Cristian Marin <cmarinmurillo@gmail.com>, 
+    Randy Martinez <ranydma01@gmail.com>, 
+    Karla Sanchez <karla.rivera24@gmail.com> 
+Title: Homework 1 -> Transcendentals Functions GNU Octave
+Description: This package is made up by functions that
+    calculates an aproximate value of a transcendental
+    math functions. This are build using series with a
+    maximum of 2500 iterations and error tolerance of 
+    10^-8. 
+Categories: math
+Url: https://octave.sourceforge.io/symbolic
+Depends: octave (>= 4.2)
+SystemRequirements: python, sympy (>= 1.2), mpmath (>= 1.0)
+License: GPL-3.0-or-later
