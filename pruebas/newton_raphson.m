@@ -1,4 +1,4 @@
-function [x, k, error] = newton_raphson(f, xo, tol, iterMax)
+function [xn, k, error] = newton_raphson(f, xo, tol, iterMax)
     syms x;
     f1 = matlabFunction(sym(f)); 
     df = matlabFunction(diff(sym(f1)));
