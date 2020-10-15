@@ -1,6 +1,6 @@
 % El siguiente script es una prueba del 
 % funcionamiento de las funciones 
-% implementadas.
+% implementadas
 %
 % La prueba es la siguiente expresión:
 % (root^3(sin(3/7) + log(2)) / sinh(sqrt(2))) + atan(e^-1)
@@ -15,7 +15,7 @@ close all;
 % Limpiando comando y resultados anterioes de la consola
 clc;
 
-% cargando paquete simbolico
+% Cargando paquete simbolico
 pkg load symbolic
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%                           
