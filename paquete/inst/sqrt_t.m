@@ -15,9 +15,12 @@ function sk = sqrt_t(x)
       error = [];
       disp('El parametro x debe ser mayor o igual a cero.')
       return;
+    % Caso particular que resulta en 0
     elseif (x == 0)
       sk = 0;
       return;
+    % Llama a la funcion root_t con el grado de 
+    % raiz = 2 pues es raiz cuadrada
     else
       sk = root_t(x, 2);
     end

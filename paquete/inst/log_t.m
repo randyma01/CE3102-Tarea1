@@ -1,14 +1,17 @@
 % Calcula el valor de logaritmo en base indicada
-% sk      retorna el valor del logaritmo base ingresada
+% sk     retorna el valor del logaritmo base ingresada
 %
 % a      base del logaritmo
 %
-% x      el numero a calcular el logaritmo
+% x      argumento del algoritmo
 
 function sk = log_t(x,a)
+  % Caso particular que no se puede calcular el 
+  % logaritmo, sin importar base
    if (a==1 || a<=0)
      disp('No se puede calcular logaritmo de base = 1 o de <= 0.');
      return;
+   % El argumento siempre debe ser mayor a cero
    elseif (x <= 0)
      disp('El numero debe ser mayor a 0.');
      return;

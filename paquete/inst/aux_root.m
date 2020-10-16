@@ -1,12 +1,24 @@
+% Funcion auxiliar que calcula la raiz de un numero y grado dados
+% sk     retorna el valor de la raiz de grado a del numero x
+%
+% a      el grado de la raiz a calcular
+% x      el numero a calcular la raiz de grado a
+
 function x = aux_root(x, a)
     syms xo;
+    % Calculo de la raiz usa el valor del cero 
+    % positivo de la funcion (x^p - a)
     f = xo.^a - x;
+    % Funcion f lo pasa a symbolic
     f1 = matlabFunction(sym(f)); 
+    % Funcion f1 la deriva, debido a la formula
+    % resultante de usar Newton-Raphson
     df = matlabFunction(diff(sym(f1)));
     tol = 10^-8;
     k = 0;
     error = tol + 1;
     e = [];
+    % Valor inicial
     xo = x/2;
     % Suma cada valor de la iteracion mientras que la 
     % tolerancia sea menor a 10^-8 o hasta que se 
@@ -17,7 +29,7 @@ function x = aux_root(x, a)
             x = [];
             k = []; 
             error = [];
-            disp('La función se indefine.')
+            disp('La funcion se indefine.')
             break;
         else
             % Aproximacion de la raiz usando la iteracion

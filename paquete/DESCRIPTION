@@ -18,7 +18,7 @@ Description: This package is made up by functions that
     maximum of 2500 iterations and error tolerance of 
     10^-8. 
 Categories: math
-Url: https://octave.sourceforge.io/symbolic
+Url: 
 Depends: octave (>= 4.2)
 SystemRequirements: python, sympy (>= 1.2), mpmath (>= 1.0)
 License: GPL-3.0-or-later
