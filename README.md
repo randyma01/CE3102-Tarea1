@@ -5,7 +5,7 @@ tarea del curso: CE3102 - Análisis Numérico para Ingeniería.
 
 ## Autores ✒️
 
-Randy Martínez
-Karla Rivera
-Fiorella Delgado
-Cristian Marín
+- Randy Martínez
+- Karla Rivera
+- Fiorella Delgado
+- Cristian Marín
