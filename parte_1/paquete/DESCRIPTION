@@ -5,7 +5,7 @@ Author: various authors
 Maintainer: Randy Martinez <ranydma01@gmail.com>
 Title: FunTras
 Categories: Math
-Description: Transcendentals Functions
+Description: Trans. Functions
 Depends: octave (>= 4.2)
 SystemRequirements: python, sympy (>= 1.2), mpmath (>= 1.0)
 License: GPL-3.0-or-later
