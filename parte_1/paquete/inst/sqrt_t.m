@@ -25,5 +25,3 @@ function sk = sqrt_t(x)
       sk = root_t(x, 2);
     end
 end
-
-% sk = skrt_t(123456)

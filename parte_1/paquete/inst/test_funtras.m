@@ -35,7 +35,7 @@ tres_setimos = 3 * div_7
 % sin(3/7)
 sen3_7 = sin_t(tres_setimos)
 
-% sin(3/7) + log(2)
+% sin(3/7) + log(2) = 1.10
 arg_raiz = double(sen3_7 + ln_2)
 
 % root^3(sin(3/7) + log(2))

@@ -7,8 +7,28 @@ function x = div_t(a)
     tol = 10^-8;
     err = tol + 1;
     k = 0;
-    x = 0.1;
+    c = 1;  % Valor del signo
+
+    % Si el parametro de entrada 'a' es cero,
+    % se sale de la funcion y limpia la 
+    % variable 'x'
+    if (a == 0)
+        display("No existe la división entre cero.")
+        %x = [];
+        %return;
+    end
+
+    % Si el parametro de entrada 'a' es menor
+    % que cero, se aplica valor absoluto a 'a'
+    % y se guarda el signo en la variable 'c'
+    if (a < 0)
+        a = abs(a)
+        c = -1
+    end
     
+    % Valor inicial
+    x = 0.1;
+
     % Se calcula primero un valor inicial de x dependiendo
     % de que tan grande es el numero ingresado
     %
@@ -58,4 +78,9 @@ function x = div_t(a)
         x = xn;
         ++k;
     end
+
+    % Le retorna el signo correspondiente
+    % al resultado final
+    x = x * c;
+
 end
